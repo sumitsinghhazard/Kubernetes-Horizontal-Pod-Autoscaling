@@ -5,12 +5,13 @@ Performance and Reliability
 
 ### Experiment Design
 
-The focus is on providing insights into the practical application and performance of Horizontal Pod Autoscaling (HPA) within Kubernetes environments, with a specific emphasis on tenant isolation.
+The focus is on providing insights into the practical application and performance of Horizontal Pod Autoscaling (HPA) within Kubernetes environments, with a specific emphasis on tenant isolation. 
 
 - **Objective:** Set up auto-scaling policies to handle sudden traffic surges.
 - **Technology:** Horizontal Pod Autoscaling (HPA)
 
 #### Experiment Setup:
+This segment focuses on Horizontal Pod Autoscaling (HPA) with specific emphasis on managing an Apache server deployment to dynamically scale pods based on CPU utilization.
 
 **Environment and Tooling:**
 - Conducted within the Virtual Computing Lab (VCL) at NCSU, using Kubernetes tools such as minikube, kubectl, and VirtualBox.
