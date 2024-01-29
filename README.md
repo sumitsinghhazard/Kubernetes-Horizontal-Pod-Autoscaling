@@ -30,7 +30,10 @@ The focus is on providing insights into the practical application and performanc
 
 **Visualization and Reporting:**
 - Presented findings through charts and graphs illustrating the effectiveness and efficiency of the HPA setup in maintaining CPU usage below the specified threshold while handling variable workloads.
-- Setup Snapshots: [Keep space for 3 snaps]
+- Setup Snapshots:
+  - ![Snapshot 1](img/setup1.png)
+  - ![Snapshot 2](img/setup2.png)
+  - ![Snapshot 3](img/setup3.png)
 
 ### Workload Generation with Locust
 
@@ -51,7 +54,7 @@ The focus is on providing insights into the practical application and performanc
   - Continuously monitor the Horizontal Pod Autoscaler by executing `kubectl get hpa cpu-autoscale --watch`. This command tracks CPU usage and pod scaling in real-time.
 
 - **Running Locust:**
-  - [Keep space for a snap]
+  - ![Locust Snapshot](img/locust1.png)
 
 ### Analysis of the Results
 
@@ -91,6 +94,9 @@ The focus is on providing insights into the practical application and performanc
 - **Performance Enhancement:**
   - The declining response times despite the increased load highlights the efficiency of horizontal scaling in meeting service demands without compromising response efficiency or request failure rates.
 
-- **Snapshot kubectl:** [Keep space for 1 snapshot]
+- **Snapshot kubectl:**
+  - ![Kubectl Snapshot](img/kubectl1.png)
 
-- **Locust report:** [Keep space for 2 snaps]
+- **Locust report:**
+  - ![Locust Report 1](img/report1.png)
+  - ![Locust Report 2](img/report2.png)
